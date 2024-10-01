@@ -7,7 +7,6 @@ import 'package:food_recipe/view/reusable_layout/home_page.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
-import 'bottom_navigation_menu.dart';
 
 class EditRecipePage extends StatefulWidget{
 
@@ -95,15 +94,27 @@ class _EditRecipePageState extends State<EditRecipePage>{
   }
 
   Future<void>saveChanges(int index)async{
-    await recipeController.editRecipe(index,
+    if(recipeNameController.text.isNotEmpty && recipeDescController.text.isNotEmpty &&selectedRecipe.toString().isNotEmpty
+        && ingredientsController.text.isNotEmpty && preparationStepsController.text.isNotEmpty){
+      await recipeController.editRecipe(index,
         recipeNameController.text.toString().trim(),
         recipeDescController.text.toString().trim(),
         selectedRecipe.toString(),
         ingredientsController.text.toString().trim(),
         preparationStepsController.text.toString().trim(),
         recipeController.recipeList[widget.index].picturePath.toString().trim(),
-    );
-    await recipeController.readRecipe();
+      );
+      await recipeController.readRecipe();
+    }
+    else{
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('All information must be filled'),
+          duration: Duration(seconds: 5),
+        ),
+      );
+    }
+
     Navigator.of(context).pop();
   }
 
