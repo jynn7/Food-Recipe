@@ -51,12 +51,44 @@ dev_dependencies:
   floor_generator: ^1.5.0
   build_runner: ^2.4.12
   json_serializable: ^6.8.0
+  flutter_launcher_icons: "^0.13.1"
+  flutter_native_splash: ^2.4.1
+
+flutter_launcher_icons:
+
+  android: "launcher_icon"
+  adaptive_icon_background: "#ffffff"
+  image_path: "android/lib/assets/images/launcher_icon_1.png"
+  min_sdk_android: 21
+
+  web:
+    generate: true
+    image_path: "android/lib/assets/images/launcher_icon_1.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "android/lib/assets/images/launcher_icon_1.png"
+    icon_size: 48 # min:48, max:256, default: 48
+
+flutter_native_splash:
+  android: true
+  web: false
+  color: "#ffffff"
+  image: android/lib/assets/images/launcher_icon_1.png
+  image_dark: android/lib/assets/images/launcher_icon_1.png
+  android_12:
+    image: android/lib/assets/images/launcher_icon_1.png
+    icon_background_color: "#ffffff"
+    image_dark: android/lib/assets/images/launcher_icon_1.png
+    icon_background_color_dark: "#121212"
 
 flutter:
   uses-material-design: true
   assets:
     - android/lib/assets/images/
     - C:/Users/cheah/food_recipe/lib/JSON/
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
