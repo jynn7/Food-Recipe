@@ -1,0 +1,74 @@
+[
+  {
+    "recipeName": "Nasi Lemak",
+    "recipeDesc": "A traditional Malay dish served with coconut rice, sambal, and various sides.",
+    "ingredients": "Coconut rice,Sambal,Boiled egg,Fried anchovies,Peanuts,Cucumber",
+    "recipeTypes": "Main Course",
+    "preparationSteps": "Cook the rice with coconut milk.Prepare the sambal by frying chili paste, onions, and anchovies.Serve with boiled egg, fried anchovies, peanuts, and cucumber slices.",
+    "picturePath": "/storage/emulated/0/Download/nasi_lemak.jpg"
+  },
+  {
+    "recipeName": "Chicken Salad",
+    "recipeDesc": "A healthy chicken salad with fresh vegetables.",
+    "ingredients": "Chicken breast, Lettuce, Tomatoes, Cucumbers, Olive oil, Vinegar",
+    "recipeTypes": "Salad",
+    "preparationSteps": "Grill the chicken breast and slice it. Mix lettuce, tomatoes, and cucumbers in a bowl. Add olive oil and vinegar, then top with grilled chicken slices.",
+    "picturePath": "/storage/emulated/0/Download/chicken_salad.jpg"
+  },
+  {
+    "recipeName": "Chicken Soup",
+    "recipeDesc": "A warm and comforting chicken soup.",
+    "ingredients": "Chicken, Carrots, Onions, Celery, Garlic, Salt, Pepper",
+    "recipeTypes": "Soup",
+    "preparationSteps": "Boil chicken in water with salt and garlic. Add carrots, onions, and celery. Simmer until the vegetables are tender and serve hot.",
+    "picturePath": "/storage/emulated/0/Download/chicken_soup.jpg"
+  },
+  {
+    "recipeName": "Chocolate Cake",
+    "recipeDesc": "A rich and moist chocolate cake.",
+    "ingredients": "Flour, Sugar, Cocoa powder, Butter, Eggs, Milk",
+    "recipeTypes":"Dessert",
+    "preparationSteps": "Mix the dry ingredients together. Add wet ingredients and stir until smooth. Bake at 180°C for 35 minutes.",
+    "picturePath": "/storage/emulated/0/Download/chocolate_cake.jpg"
+  },
+  {
+    "recipeName": "Fried Chicken",
+    "recipeDesc": "Crispy fried chicken with a golden-brown crust.",
+    "ingredients": "Chicken pieces, Flour, Spices, Oil",
+    "recipeTypes": "Side Dish",
+    "preparationSteps": "Season chicken pieces with spices. Coat them in flour and fry in hot oil until crispy and golden.",
+    "picturePath": "/storage/emulated/0/Download/fried_chicken.jpg"
+  },
+  {
+    "recipeName": "Fried Crab",
+    "recipeDesc": "Delicious fried crab seasoned with spices.",
+    "ingredients": "Crab, Flour, Spices, Oil",
+    "recipeTypes": "Seafood",
+    "preparationSteps": "Clean the crabs and season with spices. Coat in flour and deep fry until golden brown.",
+    "picturePath": "/storage/emulated/0/Download/fried_crab.jpg"
+  },
+  {
+    "recipeName": "Kiwi Juice",
+    "recipeDesc": "A refreshing kiwi juice full of vitamins.",
+    "ingredients":"Kiwis, Water, Sugar, Ice",
+    "recipeTypes": "Drink",
+    "preparationSteps": "Peel and blend kiwis with water and sugar. Serve over ice.",
+    "picturePath": "/storage/emulated/0/Download/kiwi_juice.jpg"
+  },
+  {
+    "recipeName": "Spaghetti",
+    "recipeDesc": "Classic Italian spaghetti with tomato sauce.",
+    "ingredients": "Spaghetti, Tomato sauce, Garlic, Onions, Olive oil",
+    "recipeTypes": "Main Course",
+    "preparationSteps": "Boil spaghetti until al dente. Cook tomato sauce with garlic and onions. Mix the sauce with the spaghetti and serve.",
+    "picturePath": "/storage/emulated/0/Download/Spaghetti.jpg"
+  },
+  {
+    "recipeName": "Vegetarian Noodles",
+    "recipeDesc": "Stir-fried noodles with fresh vegetables.",
+    "ingredients": "Noodles, Broccoli, Carrots, Bell peppers, Soy sauce",
+    "recipeTypes": "Vegeterian",
+    "preparationSteps": "Stir fry the vegetables in a pan. Add cooked noodles and soy sauce, stir-fry for another 2 minutes.",
+    "picturePath": "/storage/emulated/0/Download/vegeterian_noodles.jpg"
+  }
+]

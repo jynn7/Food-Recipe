@@ -1,0 +1,14 @@
+{
+  "recipe_types": [
+    "Appetizer",
+    "Breakfast",
+    "Dessert",
+    "Drink",
+    "Main Course",
+    "Salad",
+    "Side Dish",
+    "Soup",
+    "Seafood",
+    "Vegeterian"
+  ]
+}
