@@ -2,10 +2,10 @@
 - This Flutter app, created for learning purposes, provides a simple platform for managing recipes. Users can add, edit, and delete recipes, making it a great project for beginners to explore Flutter development, local database handling with Floor, and state management with GetX.
 
 <p float="left">
-  <img src="./pictures/showcase-1.gif" alt="Overview" width="300" />
-  <img src="./pictures/showcase-2.gif" alt="Add recipe" width="300" />
-  <img src="./pictures/showcase-3.gif" alt="Delete recipe" width="300" />
-  <img src="./pictures/showcase-4.gif" alt="modify recipe info" width="300" />
+  <img src="./pictures/showcase-1.gif" alt="Overview" width="200" />
+  <img src="./pictures/showcase-2.gif" alt="Add recipe" width="200" />
+  <img src="./pictures/showcase-3.gif" alt="Delete recipe" width="200" />
+  <img src="./pictures/showcase-4.gif" alt="modify recipe info" width="200" />
 </p>
 
 ## Notes
