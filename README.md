@@ -1,5 +1,5 @@
 # food_recipe
-- This Flutter app, created for learning purposes, provides a simple platform for managing recipes. Users can add, edit, and delete recipes, making it a great project for beginners to explore Flutter development, local database handling with Floor, and state management with GetX.
+- This Flutter app, created for learning purposes, provides a simple platform for managing recipes. Users can add, edit, and delete recipes, making it a great project for beginners to explore Flutter development, local database handling with Floor.
 
 <p float="left">
   <img src="./pictures/showcase-1.gif" alt="Overview" width="200" />
